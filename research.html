@@ -3,28 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Publications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        header {
+            background: #004d66;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            background: #006080;
+            text-align: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+        }
+        section h2 {
+            color: #004d66;
+            border-bottom: 2px solid #004d66;
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 0.5rem 0;
+        }
+        ul li a {
+            color: #004d66;
+            text-decoration: none;
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #004d66;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Projects</h1>
+        <h1>My Publications</h1>
+        <p>A comprehensive list of my journal and conference contributions</p>
     </header>
     <nav>
-        <a href="index.html#about">About Me</a>
         <a href="index.html">Home</a>
+        <a href="research.html">Publications</a>
         <a href="contact.html">Contact</a>
     </nav>
-    <section>
-        <h2>Selected Projects</h2>
+    <section id="journals">
+        <h2>Journals</h2>
         <ul>
-            <li><strong>Genome Analysis Toolkit:</strong> A pipeline for variant calling and annotation in large-scale genome datasets.</li>
-            <li><strong>Protein-Protein Interaction Network:</strong> Visualizing and analyzing networks to uncover biological pathways.</li>
-            <li><strong>Single-Cell RNA-Seq Analysis:</strong> Developed workflows for clustering and functional annotation of cell populations.</li>
+            <li><strong><a href="https://doi.org/10.3389/fenvs.2022.901917" target="_blank">HT-ARGfinder: A Comprehensive Pipeline for Identifying Horizontally Transferred Antibiotic Resistance Genes and Directionality in Metagenomic Sequencing Data</a></strong> - Frontiers in Environmental Science, 2022</li>
+            <li><strong><a href="https://doi.org/10.1371/journal.pone.0221270" target="_blank">Quartet-based inference of cell differentiation trees from ChIP-Seq histone modification data</a></strong> - PLOS ONE, 2019</li>
+            <!-- Add more journal publications as needed -->
+        </ul>
+    </section>
+    <section id="conferences">
+        <h2>Conferences</h2>
+        <ul>
+            <li><strong><a href="https://doi.org/10.1109/ICSCT53883.2021.9642494" target="_blank">An Area-efficient 2–to–4 Decoder Design Based on Quantum Dot Cellular Automata</a></strong> - 2021 International Conference on Science & Contemporary Technologies (ICSCT), 2021</li>
+            <li><strong><a href="https://doi.org/10.1109/ICREST.2019.8644353" target="_blank">An Effective Design of 2 : 1 Multiplexer and 1 : 2 Demultiplexer using 3-dot QCA Architecture</a></strong> - 2019 International Conference on Robotics,Electrical and Signal Processing Techniques (ICREST), 2019</li>
+            <li><strong><a href="https://doi.org/10.1109/ECACE.2019.8679471" target="_blank">An Efficient Design of 4 - to - 2 Encoder and Priority Encoder Based on 3-dot QCA Architecture</a></strong> - 2019 International Conference on Electrical, Computer and Communication Engineering (ECCE), Year</li>
+            
+        </ul>
+    </section>
+    <section id="preprints">
+        <h2>Preprints</h2>
+        <ul>
+            <li><strong><a href="https://doi.org/10.1101/2024.09.13.612805" target="_blank">Variant Evolution Graph: Can We Infer How SARS-CoV-2 Variants are Evolving?</a></strong> - Available on bioRxiv, 2024</li>
         </ul>
     </section>
     <footer>
-        <p>&copy; 2024 Your Name | Bioinformatics Portfolio</p>
+        <p>&copy; 2024 Badhan Das</p>
     </footer>
 </body>
 </html>
