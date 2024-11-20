@@ -125,4 +125,21 @@ table tr:nth-child(even) {
     background: #f9f9f9;
 }
 
-
+ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    margin: 0.5rem 0; /* Adds spacing between items */
+}
+ul li strong {
+    color: #004d66; /* Highlight profile labels */
+}
+ul li a {
+    color: #006080; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
