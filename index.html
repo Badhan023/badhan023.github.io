@@ -56,6 +56,25 @@
             margin: 0 auto 1rem; /* Centers the photo and adds spacing below */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
         }
+        /* Education Section Styling */
+        #education-and-interests .education ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0;
+        }
+
+        #education-and-interests .education ul li {
+            margin: 1rem 0; /* Add spacing between each entry */
+            line-height: 1.6; /* Increase readability */
+        }
+
+        #education-and-interests .education ul li strong {
+            font-size: 1rem;
+            color: #004d66; /* Highlight degree and year */
+        }
+
+        #education-and-interests .education ul li br {
+            margin: 0.5rem 0; /* Adds spacing between degree and institution */
+        }
     </style>
 </head>
 <body>
@@ -73,7 +92,7 @@
     <section id="about">
         <h2>About Me</h2>
         <p>
-            I'm a PhD student at Virginia Tech specializing in computational biology and bioinformatics. 
+            I'm a PhD student in <a href="https://cs.vt.edu/" target="_blank">Computer Science</a> at <a href="https://www.vt.edu/" target="_blank">Virginia Tech</a> specializing in Computational Biology and Bioinformatics. 
             My research focuses on analyzing genomic data, building bioinformatics tools, 
             and uncovering insights hidden within biological datasets.
         </p>
@@ -96,6 +115,45 @@
             </li>
         </ul>
     </section>
+
+    <section id="education-and-interests">
+        <div class="container">
+            <!-- Education Section -->
+            <div class="section education">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <strong>PhD in Computer Science, (Expected 2025)</strong><br>
+                        <a href="https://www.vt.edu/" target="_blank">Virginia Tech</a>
+                    </li>
+                    <li>
+                        <strong>MS in Computer Science, 2024</strong><br>
+                        <a href="https://www.vt.edu/" target="_blank">Virginia Tech</a>
+                    </li>
+                    <li>
+                        <strong>BSc in Computer Science and Engineering, 2017</strong><br>
+                        <a href="https://www.buet.ac.bd/web/" target="_blank">Bangladesh University of Engineering and Technology</a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+    
+            <!-- Interests Section -->
+            <div class="section interests">
+                <h2>Research Interests</h2>
+                <ul>
+                    <li>Computational Biology</li>
+                    <li>Bioinformatics</li>
+                    <li>Graph Theory</li>
+                    <li>Algorithms</li>
+                    <li>ML in Health Informatics</li>
+                    <li>Digital Logic Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
     <footer>
         <p>&copy; 2024 Badhan Das</p>
     </footer>
