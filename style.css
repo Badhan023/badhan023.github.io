@@ -11,6 +11,10 @@ header {
     padding: 1rem;
     text-align: center;
 }
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
 nav {
     background: #006080;
     padding: 0.5rem;
@@ -31,6 +35,20 @@ section {
 section h2 {
     color: #004d66;
 }
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 0.5rem 0;
+}
+ul li a {
+    color: #004d66;
+    text-decoration: none;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
 footer {
     background: #004d66;
     color: #fff;
@@ -47,6 +65,14 @@ footer {
     display: block;
     margin: 0 auto 1rem; /* Centers the photo and adds spacing below */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+address {
+    font-style: normal; /* Removes italic styling from default */
+    line-height: 1.6;
+    margin: 1rem 0;
+    background: #f5f7fa; /* Light background for distinction */
+    padding: 1rem;
+    border-left: 4px solid #004d66; /* Decorative border */
 }
 /* Education Section Styling */
 #education-and-interests .education ul {
