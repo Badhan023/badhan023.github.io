@@ -1,94 +1,128 @@
-/* Reset some default styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Basic page styling */
+/* General Body Styling */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
     color: #333;
 }
 
-/* Navigation bar */
+/* Header Styling */
+header {
+    background: #004d66;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Navigation Styling */
 nav {
-    background-color: #333;
-    padding: 10px 0;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-/* Hero section */
-.hero {
-    background-color: #005f73;
-    color: white;
+    background: #006080;
+    padding: 0.5rem;
     text-align: center;
-    padding: 100px 0;
 }
-
-.hero h1 {
-    font-size: 48px;
-}
-
-.hero p {
-    font-size: 20px;
-    margin: 20px 0;
-}
-
-.button {
-    background-color: #ffb703;
-    color: white;
-    padding: 10px 20px;
+nav a {
+    color: #fff;
+    margin: 0 1rem;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-top: 20px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
 }
 
-.button:hover {
-    background-color: #fb8500;
-}
-
-/* About, Research, and Projects sections */
+/* Section Styling */
 section {
-    padding: 50px;
-    text-align: center;
-    background-color: #fff;
-    margin-bottom: 10px;
+    padding: 2rem;
 }
-
 section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    color: #004d66;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
-section p {
-    font-size: 18px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* Footer */
+/* Footer Styling */
 footer {
+    background: #004d66;
+    color: #fff;
     text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    margin: 0.5rem 0;
+}
+ul li a {
+    color: #004d66;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 50%; /* Circular image by default */
+}
+
+/* Button Styling (Optional) */
+button {
+    background: #004d66;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #006080;
+}
+
+/* Links Styling */
+a {
+    color: #004d66;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table Styling (Optional) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+}
+table th {
+    background: #004d66;
+    color: #fff;
+}
+table tr:nth-child(even) {
+    background: #f9f9f9;
 }
