@@ -144,3 +144,12 @@ ul li a {
 ul li a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
+address {
+    font-style: normal; /* Removes italic styling from default */
+    line-height: 1.6;
+    margin: 1rem 0;
+    background: #f5f7fa; /* Light background for distinction */
+    padding: 1rem;
+    border-left: 4px solid #004d66; /* Decorative border */
+}
