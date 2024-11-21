@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, Geneva, sans-serif; 
     margin: 0;
-    padding: 30px; /* Adds space inside the body */
+    padding: 0; /* Adds space inside the body */
     background-color: #e7f7e4;
     color: #003366;
 }
